@@ -1,0 +1,5 @@
+É possível dar new em uma lista de uma classe abstrata, pois não estamos trabalhando diretamente com um objeto instanciado
+de uma classe abstrata. As classes abstratas servem somente de modelo, visto isso, em um array que possui o tipo de uma classe
+abstrata, nela serão alocados somente objetos que tem a classe abstrata de Conta como modelo, como por exemplo uma classe
+fictícia de Conta Corrente. A classe abstrata serve para se trabalhar com polimorfismo e herança, então em um vetor
+da classe abstrata Conta, poderemos inserir objetos polimórficos que herdam da classe Conta.

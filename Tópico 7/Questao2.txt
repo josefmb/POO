@@ -1,0 +1,3 @@
+A interface suporta herança múltipla, então as classes que herdarem de interfaces podem herdar de várias interfaces diferentes.
+Ela também não contém atributos e método construtor. Enquanto que uma classe com todos os métodos abstratos não suporta 
+herança múltipla, pode conter atributos de todos os tipos e contém um método construtor.

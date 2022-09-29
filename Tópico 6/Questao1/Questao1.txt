@@ -1,0 +1,18 @@
+Os conceitos de POO utilizados foram os de:
+Abstração: Ao abstrair os objetos, foi criado uma classe abstrata chamada Funcionario e um método abstrato
+chamado de calculaSalario(). Pela classe pai Funcionario ser abstrata, ela não pode ser instanciada como um objeto.
+A classe abstrata possui membros que são comuns entre as outras classes que herdam dela. Neste caso, a classe abstrata
+Funcionario possui os membros referentes ao nome, matrícula e salário base. Essas são informações que são comuns aos seus
+filhos, que são as classes Vendedor, Assistente e Gerente. O método calculaSalario é um método abstrato, logo ele não
+possui implementação na classe Funcionario, o que obriga aos filhos dessa classe de sobreescreverem esse método. Isso faz
+bastante sentido, visto que cada classe filho tem uma maneira diferente de se calcular o salário, apesar de que todas
+realizem essa operação.
+
+Foi utilizado também o encapsulamento, ao manter os membros da classe Funcionario como privados, sendo necessário utilizar
+o construtor dos objetos ou os métodos de acesso get e set para se obter/modificar os atributos.
+
+O Polimorfismo está presente, pois todas as classes filhas são funcionários, elas só possuem informações diferentes e
+podem realizar outras ações além das especificadas na classe Funcionario.
+
+A Herança também está presente, pois as classes Vendedor, Assistente e Gerente são subclasses da superclasse Funcionario,
+herdando os seus métodos e atributos.

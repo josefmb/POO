@@ -1,0 +1,17 @@
+1) Podemos definir interfaces em Java como classes abstratas compostas unicamente de métodos abstratos, e que permite herança múltipla nas classes que implementam
+a interface. Como é totalmente abstrata, é uma espécie de "molde" para as classes que se baseiam na interface, obrigando estas classes a implementar
+os métodos da interface com fins mais específicos.
+
+2) A interface suporta herança múltipla, então as classes que herdarem de interfaces podem herdar de várias interfaces diferentes.
+Ela também não contém atributos e método construtor. A interface possui todos os métodos abstratos, obrigando as classes que implementam a interface a
+sobreescrever estes métodos.
+Enquanto que uma classe abstrata pode não ter todos os métodos abstratos, ou seja, ela pode implementar o seu próprio funcionamento,
+porém não pode ser instanciada. Ela não permite herança múltipla, pode conter atributos de todos os tipos e contém um método construtor.
+Utilizamos classes abstratas no lugar de interfaces quando não se quer todos os métodos abstratos. Utilizamos interfaces quando queremos que as classes que
+implementem a interface sobreescrevam todos os métodos e quando queremos trabalhar com heranças múltiplas.
+
+3) É possível se a classe que implemente a interface for uma classe abstrata. Dessa maneira, as classes que herdarem desta classe abstrata,
+terão que implementar o método da interface, mas a classe abstrata não precisa implementar este método.
+Um exemplo é a classe abstrata Publicacao implementar a interface Imprimivel que possui a assinatura do método imprimir().
+A classe Publicacao não precisa implementar este método, mas as classes Livro e Artigo que não são classes abstratas e herdam da classe Publicacao
+são obrigadas a implementar o método imprimir().

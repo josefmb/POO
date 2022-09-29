@@ -1,0 +1,16 @@
+O bloco de código try se certifica de executar o código que está contido dentro de suas chaves. Nesse bloco de código,
+costuma-se colocar partes do código nas quais podem ocorrer exceções. Caso ocorra uma exceção, esta será capturada
+e tratada no bloco catch, ou seja, caso no bloco try ocorra uma exceção, temos o bloco catch que definirá como o sistema
+irá se comportar no caso de uma exceção	ocorrer. Também existe o bloco finally, que é um bloco de código que será executado
+sempre, independente do que ocorreu dentro dos blocos try-catch. Logo, a estrutura dos blocos fica desta maneira:
+Ex:
+
+try {
+    // código que pode gerar uma exceção.
+}
+catch (Exception e) {
+    // bloco que trata a exceção capturada dentro da variável "e".
+}
+finally {
+    // código que será executado independente do que ocorreu nos blocos anteriores.
+}

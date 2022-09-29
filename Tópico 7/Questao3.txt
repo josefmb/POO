@@ -1,0 +1,4 @@
+Não é possível importar diretamente estaticamente a classe Math com "import static java.lang.Math". Para importar
+os seus atributos static, seria necessário especificar, como por exemplo: "import static java.lang.Math.PI". Dessa maneira,
+ao utilizar o PI, não é mais necessário escrever "Math.PI" em todos os locais, só "PI" serve. Além disso, também podemos
+importar de maneira estática todos os atributos da classe com "import static java.lang.Math.*".

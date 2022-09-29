@@ -1,0 +1,3 @@
+Hierarquia de classes no java são compostas de subclasses, sendo estas classes que herdam de superclasses, sendo as 
+subclasses mais específicas e as superclasses mais amplas/genéricas. Uma subclasse herda os métodos de sua superclasse 
+e pode sobreescrevê-los para que possuam um comportamento mais específico do que o comportamento herdado.

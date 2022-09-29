@@ -1,0 +1,5 @@
+O polimorfismo nesse código acontece nas linhas 8, 11, 14 e 17 da classe Teste2. 
+Nas linhas 8, 11 e 14, acontece a inserção de diferentes tipos em um array de Cartões Web, visto que os diferentes tipos
+são todos derivados dessa classe. Na linha 17, podemos ver a chamada do método showMessage() do objeto atual do array.
+A chamada desse método funciona, e como resultado disso podemos ver mensagens diversas no terminal, visto que cada 
+tipo de data comemorativa tem sua própria mensagem. 

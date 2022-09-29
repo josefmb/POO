@@ -1,0 +1,2 @@
+Deep Copy é uma cópia tanto de tipos primitivos, quanto de objetos de referência, enquanto que em Shallow Copy
+os campos do tipo de dados primitivos são copiados, mas os objetos de referência não.

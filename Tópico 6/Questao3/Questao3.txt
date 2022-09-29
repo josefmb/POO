@@ -1,0 +1,12 @@
+As linhas que irão compilar e executar corretamente são as linhas 8 e 10. As linhas 9 e 11 não podem chamar
+o construtor do tipo DiaDosNamorados pois são de outros tipos, porém as linhas 8 e 10 darão certo, pois a linha 10 possui
+o tipo correto e a linha 8 vai dar certo, pois DiaDosNamorados é um tipo polimórifico de CartaoWeb, logo CartaoWeb pode
+aceitar os seus tipos polimórificos.
+
+O código não utiliza o método showMessage(), então não terá nenhuma saída, mas no caso de chamar o método showMessage(),
+a saída será:
+Querida(o) Debby
+Feliz Dia dos Namorados!
+
+Querida(o) Fiona
+Feliz Dia dos Namorados!
